@@ -68,7 +68,6 @@ def crawl(urls, key):
                             result.append(newurl)
 
         except:
-            print "error"
             urls.pop(0)
 
         time.sleep(1)
